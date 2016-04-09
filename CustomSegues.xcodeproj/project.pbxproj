@@ -13,6 +13,7 @@
 		A64EB8DE1CB7646900F02766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64EB8DC1CB7646900F02766 /* Main.storyboard */; };
 		A64EB8E01CB7646900F02766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64EB8DF1CB7646900F02766 /* Assets.xcassets */; };
 		A64EB8E31CB7646900F02766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64EB8E11CB7646900F02766 /* LaunchScreen.storyboard */; };
+		A64EB8EF1CB830C200F02766 /* segueMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A64EB8EE1CB830C200F02766 /* segueMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A64EB8DF1CB7646900F02766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A64EB8E21CB7646900F02766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A64EB8E41CB7646900F02766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A64EB8ED1CB830C200F02766 /* segueMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = segueMenu.h; sourceTree = "<group>"; };
+		A64EB8EE1CB830C200F02766 /* segueMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = segueMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 		A64EB8D31CB7646900F02766 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A64EB8ED1CB830C200F02766 /* segueMenu.h */,
+				A64EB8EE1CB830C200F02766 /* segueMenu.m */,
 				A64EB8D41CB7646900F02766 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A64EB8EF1CB830C200F02766 /* segueMenu.m in Sources */,
 				A64EB8DB1CB7646900F02766 /* ViewController.m in Sources */,
 				A64EB8D81CB7646900F02766 /* AppDelegate.m in Sources */,
 				A64EB8D51CB7646900F02766 /* main.m in Sources */,

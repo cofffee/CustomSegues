@@ -8,7 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UILabel *mainScreenLabel;
+
+- (IBAction)transitionOne:(id)sender;
+- (IBAction)transitionTwo:(id)sender;
+- (IBAction)transitionThree:(id)sender;
+- (IBAction)transitionFour:(id)sender;
+
+
+@property (weak, nonatomic) IBOutlet UITextField *echoTextField;
+@property (weak, nonatomic) IBOutlet UITableView *segueOptions;
 
 
 @end
